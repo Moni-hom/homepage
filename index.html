@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonikaHomola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= Lato & display = swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="background">
+    <button class="buttonBackground"> Włącz <span class="motyw">ciemny</span> motyw</button>
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
+                <a href="#o-mnie" class="navigation__link">O mnie</a>
+            </li>
+            <li class="navigation__listItem">
+                <a href="#mojePasje" class="navigation__link">Pasje</a>
+            </li>
+            <li class="navigation__listItem">
+                <a href="#ulubioneKsiazki" class="navigation__link">Ulubione książki</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <img class="section__myPhoto" height="400" src="images/mojeZdjecie.jpg" alt="Moje zdjęcie">
+            <h2 class="section__aboutMe" id="o-mnie">
+                Cześć, tu Monika!
+            </h2>
+            <p class="section__description">Jestem studentką drugiego roku na Politechnice Wrocławskiej. Mój kierunek to
+                zarządzanie
+                i
+                inżynieria produkcji.
+                W tym semestrze zaczął się kurs podstaw programowania, który bardzo mi się spodobał.Chociaż odkąd
+                pamiętam
+                bardzo bałam się takiej pracy z komputerem. A mimo to, w końcu poczułam, że to może coś co naprawdę
+                mogłabym
+                robić w przyszłości. <br> Gdy zaczęłam odrabiać zadania domowe z mojego nowego przedmiotu, algorytm
+                szybko
+                podłapał, że teraz interesuję się programowaniem. Podczas czekania na tutorial z C++ na YT, wyświetliła
+                mi
+                się
+                reklama YouCode. I tak się zaczęło. Uznałam, że warto w siebie inwestować. <strong> Warto robić to, co
+                    się
+                    kocha.</strong> Choć jeszcze nie nazwałabym programowania moją miłością :P. Jeszcze za wcześnie na
+                takie
+                stwierdzenie.<br>Także za wiele nie wiem na temat programowania. Liczę, że ten kurs naprawdę pomoże mi
+                odnaleźć
+                się w świecie IT. Dużo więcej wiem, na temat struktury i właściwości żelaza, oraz jak zarządzać
+                produkcją. <br> <span class="section__summary">Staram się celebrować każdy dzień. Żyć świadomie i być dobrym
+                    człowiekiem.</span>
+            </p>
+        </section>
+        <section id="mojePasje">
+            <h3>
+                Moje pasje
+            </h3>
+            <p class="section__passion">
+                 Od zawsze to był mój ulubiony sport. Od gimnazjum gram w siatkówkę. Nauczyła
+                mnie ona prace w zespole. Również uwielbiam słuchać muzykę, głównie <i>pop</i> i <i>indie</i>. Bardzo
+                lubię połączenie orkiestry z piosenkerzem <i>popu.</i>
+            </p>
+
+        </section>
+        <table class="table" id="ulubioneKsiazki">
+            <caption class="table__caption">Moje ulubione książki</caption>
+
+            <thead class="table__boxtable">
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Autor</th>
+                    <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                    <th class="table__cell table__cell--header" scope="col">Miejsce wydania</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row" rowspan="2">Éric-Emmanuel Schmitt</th>
+                    <td class="table__cell">Oskar i Pani Róża</td>
+                    <td class="table__cell">2002</td>
+                    <td class="table__cell" rowspan="2">Francja</td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell">Napój miłosny</td>
+                    <td class="table__cell">2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Nicholas Charles Sparks</th>
+                    <td class="table__cell">Najdłuższa podróż</td>
+                    <td class="table__cell">2013</td>
+                    <td class="table__cell">USA</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Paulo Coelho</th>
+                    <td class="table__cell">Alchemik</td>
+                    <td class="table__cell">1988</td>
+                    <td class="table__cell">Brazylia</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">John Green</th>
+                    <td class="table__cell">Gwiazd naszych wina</td>
+                    <td class="table__cell">2012</td>
+                    <td class="table__cell">USA</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Antoine de Saint-Exupéry</th>
+                    <td class="table__cell">Mały książę</td>
+                    <td class="table__cell">1943</td>
+                    <td class="table__cell">USA</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Alan Alexandr Milne</th>
+                    <td class="table__cell">Kubuś Puchatek</td>
+                    <td class="table__cell">1926</td>
+                    <td class="table__cell">Anglia</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </main>
+    <footer class="footer">
+        © 2022 Monika Homola | All rights reserved
+    </footer>
+
+</body>
+
+</html>

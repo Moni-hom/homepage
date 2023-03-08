@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.background {
+    background-color: rgb(247, 244, 244);
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 30px;
+    line-height: 1.5;
+
+}
+
+.buttonBackground {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px #747472;
+}
+
+.dark {
+    background: rgb(134, 130, 130);
+}
+
+.section__myPhoto {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 45%;
+}
+
+.section__description {
+    border-color: #747472;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding: 10px;
+}
+
+.section__passion {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding: 10px;
+}
+
+.footer {
+    border-color: #747472;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    text-align: center;
+}
