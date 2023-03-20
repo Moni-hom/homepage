@@ -1,12 +1,21 @@
-console.log("Witaj developerze");
+{
+    const welcome = () => {
+        console.log("Witaj developerze");
+    }
 
-let buttonBackground = document.querySelector(".buttonBackground");
-let background = document.querySelector(".background");
-let motyw = document.querySelector(".motyw")
+    const toggleBackground = () => {
+        const background = document.querySelector(".background");
+        const BackgroundColor = document.querySelector(".BackgroundColor")
+        background.classList.toggle("dark");
+        BackgroundColor.innerText = background.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-buttonBackground.addEventListener("click", () => {
-    background.classList.toggle("dark");
-    motyw.innerText = background.classList.contains("dark") ? "jasny" : "ciemny";
-    
-});
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
 
+        welcome();
+    }
+    init();
+
+}

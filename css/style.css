@@ -16,7 +16,7 @@ html {
 
 }
 
-.buttonBackground {
+.js-changeBackgroundButton {
     padding: 20px;
     margin-bottom: 10px;
     border-radius: 5px;
