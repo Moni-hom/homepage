@@ -1,0 +1,32 @@
+.section__flex {
+    display: flex;
+    max-width: 900px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+@media(max-width: 767px) {
+    .section__flex {
+        flex-wrap: wrap;
+    }
+}
+
+.flex__item {
+    flex-basis: 100%;
+    text-align: justify;
+    margin: 15px;
+}
+
+@media(max-width: 767px) {
+    .flex__item {
+        flex-basis: 34%;
+        flex-grow: 1;
+    }
+}
+
+@media(max-width: 500px) {
+    .flex__item {
+        flex-basis: 51%;
+        flex-grow: 1;
+    }
+}
