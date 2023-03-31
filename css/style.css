@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 
-.background {
+.body {
     background-color: rgb(247, 244, 244);
     font-family: 'Lato', sans-serif;
     margin: 0 auto;
@@ -23,7 +23,7 @@ html {
     box-shadow: 8px 8px 8px #747472;
 }
 
-.dark {
+.body--dark {
     background: rgb(134, 130, 130);
 }
 
